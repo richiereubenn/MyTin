@@ -11,6 +11,13 @@
 		B67AB8392BFAE3C7006F010E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AB8382BFAE3C7006F010E /* ContentView.swift */; };
 		B67AB83B2BFAE3C8006F010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AB83A2BFAE3C8006F010E /* Assets.xcassets */; };
 		B67AB83E2BFAE3C8006F010E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AB83D2BFAE3C8006F010E /* Preview Assets.xcassets */; };
+		B68825B42BFFA98000C6EC1C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825B32BFFA98000C6EC1C /* User.swift */; };
+		B68825B62BFFA99300C6EC1C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825B52BFFA99300C6EC1C /* Trip.swift */; };
+		B68825B82BFFA9A000C6EC1C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825B72BFFA9A000C6EC1C /* Day.swift */; };
+		B68825BA2BFFA9AF00C6EC1C /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825B92BFFA9AF00C6EC1C /* Destination.swift */; };
+		B68825BC2BFFA9BB00C6EC1C /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825BB2BFFA9BB00C6EC1C /* ToDo.swift */; };
+		B68825BE2BFFA9D400C6EC1C /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825BD2BFFA9D400C6EC1C /* Photo.swift */; };
+		B68825C02BFFAA0E00C6EC1C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68825BF2BFFAA0E00C6EC1C /* ModelData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		B67AB8382BFAE3C7006F010E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B67AB83A2BFAE3C8006F010E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B67AB83D2BFAE3C8006F010E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B68825B32BFFA98000C6EC1C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B68825B52BFFA99300C6EC1C /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		B68825B72BFFA9A000C6EC1C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		B68825B92BFFA9AF00C6EC1C /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		B68825BB2BFFA9BB00C6EC1C /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		B68825BD2BFFA9D400C6EC1C /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		B68825BF2BFFAA0E00C6EC1C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +83,74 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		B68825AA2BFF7BE300C6EC1C /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		B68825AB2BFF988B00C6EC1C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B68825AC2BFF989800C6EC1C /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		B68825AD2BFF98A900C6EC1C /* Days */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		B68825AE2BFF98BB00C6EC1C /* Destinations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Destinations;
+			sourceTree = "<group>";
+		};
+		B68825AF2BFF98C500C6EC1C /* ToDoLists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ToDoLists;
+			sourceTree = "<group>";
+		};
+		B68825B12BFF990300C6EC1C /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
+		B68825B22BFF993A00C6EC1C /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
 		B6D64B312BFB91A700E37B7E /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				B67AB8382BFAE3C7006F010E /* ContentView.swift */,
+				B68825B22BFF993A00C6EC1C /* Forms */,
+				B68825B12BFF990300C6EC1C /* Albums */,
+				B68825AF2BFF98C500C6EC1C /* ToDoLists */,
+				B68825AE2BFF98BB00C6EC1C /* Destinations */,
+				B68825AD2BFF98A900C6EC1C /* Days */,
+				B68825AC2BFF989800C6EC1C /* Trips */,
+				B68825AB2BFF988B00C6EC1C /* Helper */,
+				B68825AA2BFF7BE300C6EC1C /* Profiles */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -80,6 +158,13 @@
 		B6D64B322BFB91B200E37B7E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B68825B32BFFA98000C6EC1C /* User.swift */,
+				B68825B52BFFA99300C6EC1C /* Trip.swift */,
+				B68825B72BFFA9A000C6EC1C /* Day.swift */,
+				B68825B92BFFA9AF00C6EC1C /* Destination.swift */,
+				B68825BB2BFFA9BB00C6EC1C /* ToDo.swift */,
+				B68825BD2BFFA9D400C6EC1C /* Photo.swift */,
+				B68825BF2BFFAA0E00C6EC1C /* ModelData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,8 +246,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68825BE2BFFA9D400C6EC1C /* Photo.swift in Sources */,
+				B68825B62BFFA99300C6EC1C /* Trip.swift in Sources */,
+				B68825C02BFFAA0E00C6EC1C /* ModelData.swift in Sources */,
+				B68825BC2BFFA9BB00C6EC1C /* ToDo.swift in Sources */,
 				B67AB8392BFAE3C7006F010E /* ContentView.swift in Sources */,
+				B68825BA2BFFA9AF00C6EC1C /* Destination.swift in Sources */,
 				B67AB8372BFAE3C7006F010E /* MyTinApp.swift in Sources */,
+				B68825B82BFFA9A000C6EC1C /* Day.swift in Sources */,
+				B68825B42BFFA98000C6EC1C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
