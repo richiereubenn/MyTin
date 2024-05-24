@@ -46,6 +46,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08A741542C011A420053A41A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		B67AB82A2BFAE3C7006F010E = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				B67AB8382BFAE3C7006F010E /* ContentView.swift */,
+				08A741542C011A420053A41A /* Onboarding */,
 				B68825B22BFF993A00C6EC1C /* Forms */,
 				B68825B12BFF990300C6EC1C /* Albums */,
 				B68825AF2BFF98C500C6EC1C /* ToDoLists */,
