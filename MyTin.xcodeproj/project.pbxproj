@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A741562C015E860053A41A /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741552C015E860053A41A /* OnboardingMainView.swift */; };
+		08A741582C015FDE0053A41A /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741572C015FDE0053A41A /* OnboardingModel.swift */; };
+		08A7415A2C0160DA0053A41A /* OnboardingMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */; };
+		08A7415C2C0164EB0053A41A /* OnboardingSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7415B2C0164EB0053A41A /* OnboardingSliderView.swift */; };
+		08A7415E2C01733B0053A41A /* OnboardingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7415D2C01733B0053A41A /* OnboardingItemView.swift */; };
 		B67AB8372BFAE3C7006F010E /* MyTinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AB8362BFAE3C7006F010E /* MyTinApp.swift */; };
 		B67AB8392BFAE3C7006F010E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AB8382BFAE3C7006F010E /* ContentView.swift */; };
 		B67AB83B2BFAE3C8006F010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AB83A2BFAE3C8006F010E /* Assets.xcassets */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08A741552C015E860053A41A /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
+		08A741572C015FDE0053A41A /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainViewModel.swift; sourceTree = "<group>"; };
+		08A7415B2C0164EB0053A41A /* OnboardingSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSliderView.swift; sourceTree = "<group>"; };
+		08A7415D2C01733B0053A41A /* OnboardingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItemView.swift; sourceTree = "<group>"; };
 		B67AB8332BFAE3C7006F010E /* MyTin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AB8362BFAE3C7006F010E /* MyTinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTinApp.swift; sourceTree = "<group>"; };
 		B67AB8382BFAE3C7006F010E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +59,10 @@
 		08A741542C011A420053A41A /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				08A741552C015E860053A41A /* OnboardingMainView.swift */,
+				08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */,
+				08A7415B2C0164EB0053A41A /* OnboardingSliderView.swift */,
+				08A7415D2C01733B0053A41A /* OnboardingItemView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -173,6 +187,7 @@
 				B68825BB2BFFA9BB00C6EC1C /* ToDo.swift */,
 				B68825BD2BFFA9D400C6EC1C /* Photo.swift */,
 				B68825BF2BFFAA0E00C6EC1C /* ModelData.swift */,
+				08A741572C015FDE0053A41A /* OnboardingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -257,11 +272,16 @@
 				B68825BE2BFFA9D400C6EC1C /* Photo.swift in Sources */,
 				B68825B62BFFA99300C6EC1C /* Trip.swift in Sources */,
 				B68825C02BFFAA0E00C6EC1C /* ModelData.swift in Sources */,
+				08A741582C015FDE0053A41A /* OnboardingModel.swift in Sources */,
+				08A7415A2C0160DA0053A41A /* OnboardingMainViewModel.swift in Sources */,
 				B68825BC2BFFA9BB00C6EC1C /* ToDo.swift in Sources */,
 				B67AB8392BFAE3C7006F010E /* ContentView.swift in Sources */,
 				B68825BA2BFFA9AF00C6EC1C /* Destination.swift in Sources */,
+				08A7415E2C01733B0053A41A /* OnboardingItemView.swift in Sources */,
 				B67AB8372BFAE3C7006F010E /* MyTinApp.swift in Sources */,
+				08A7415C2C0164EB0053A41A /* OnboardingSliderView.swift in Sources */,
 				B68825B82BFFA9A000C6EC1C /* Day.swift in Sources */,
+				08A741562C015E860053A41A /* OnboardingMainView.swift in Sources */,
 				B68825B42BFFA98000C6EC1C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
