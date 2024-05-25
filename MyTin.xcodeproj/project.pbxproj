@@ -12,6 +12,9 @@
 		08A7415A2C0160DA0053A41A /* OnboardingMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */; };
 		08A7415C2C0164EB0053A41A /* OnboardingSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7415B2C0164EB0053A41A /* OnboardingSliderView.swift */; };
 		08A7415E2C01733B0053A41A /* OnboardingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7415D2C01733B0053A41A /* OnboardingItemView.swift */; };
+		B66D5A622C01B69E00536FEF /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D5A612C01B69E00536FEF /* HomePage.swift */; };
+		B66D5A662C01BC6200536FEF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D5A652C01BC6200536FEF /* CircleImage.swift */; };
+		B66D5A6A2C01C79900536FEF /* BottomRoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66D5A692C01C79900536FEF /* BottomRoundedCorners.swift */; };
 		B67AB8372BFAE3C7006F010E /* MyTinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AB8362BFAE3C7006F010E /* MyTinApp.swift */; };
 		B67AB8392BFAE3C7006F010E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AB8382BFAE3C7006F010E /* ContentView.swift */; };
 		B67AB83B2BFAE3C8006F010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B67AB83A2BFAE3C8006F010E /* Assets.xcassets */; };
@@ -31,6 +34,9 @@
 		08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainViewModel.swift; sourceTree = "<group>"; };
 		08A7415B2C0164EB0053A41A /* OnboardingSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSliderView.swift; sourceTree = "<group>"; };
 		08A7415D2C01733B0053A41A /* OnboardingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItemView.swift; sourceTree = "<group>"; };
+		B66D5A612C01B69E00536FEF /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		B66D5A652C01BC6200536FEF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B66D5A692C01C79900536FEF /* BottomRoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRoundedCorners.swift; sourceTree = "<group>"; };
 		B67AB8332BFAE3C7006F010E /* MyTin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B67AB8362BFAE3C7006F010E /* MyTinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTinApp.swift; sourceTree = "<group>"; };
 		B67AB8382BFAE3C7006F010E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +71,29 @@
 				08A7415D2C01733B0053A41A /* OnboardingItemView.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B66D5A5E2C01B60C00536FEF /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		B66D5A5F2C01B61400536FEF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B66D5A692C01C79900536FEF /* BottomRoundedCorners.swift */,
+				B66D5A652C01BC6200536FEF /* CircleImage.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		B66D5A602C01B66800536FEF /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 		B67AB82A2BFAE3C7006F010E = {
@@ -102,27 +131,6 @@
 				B67AB83D2BFAE3C8006F010E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		B68825AA2BFF7BE300C6EC1C /* Profiles */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profiles;
-			sourceTree = "<group>";
-		};
-		B68825AB2BFF988B00C6EC1C /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		B68825AC2BFF989800C6EC1C /* Trips */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Trips;
 			sourceTree = "<group>";
 		};
 		B68825AD2BFF98A900C6EC1C /* Days */ = {
@@ -164,15 +172,16 @@
 			isa = PBXGroup;
 			children = (
 				B67AB8382BFAE3C7006F010E /* ContentView.swift */,
+				B66D5A612C01B69E00536FEF /* HomePage.swift */,
+				B66D5A602C01B66800536FEF /* Profiles */,
+				B66D5A5E2C01B60C00536FEF /* Trips */,
 				08A741542C011A420053A41A /* Onboarding */,
 				B68825B22BFF993A00C6EC1C /* Forms */,
 				B68825B12BFF990300C6EC1C /* Albums */,
 				B68825AF2BFF98C500C6EC1C /* ToDoLists */,
-				B68825AE2BFF98BB00C6EC1C /* Destinations */,
 				B68825AD2BFF98A900C6EC1C /* Days */,
-				B68825AC2BFF989800C6EC1C /* Trips */,
-				B68825AB2BFF988B00C6EC1C /* Helper */,
-				B68825AA2BFF7BE300C6EC1C /* Profiles */,
+				B68825AE2BFF98BB00C6EC1C /* Destinations */,
+				B66D5A5F2C01B61400536FEF /* Helper */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68825BE2BFFA9D400C6EC1C /* Photo.swift in Sources */,
+				B66D5A662C01BC6200536FEF /* CircleImage.swift in Sources */,
 				B68825B62BFFA99300C6EC1C /* Trip.swift in Sources */,
 				B68825C02BFFAA0E00C6EC1C /* ModelData.swift in Sources */,
 				08A741582C015FDE0053A41A /* OnboardingModel.swift in Sources */,
@@ -279,9 +289,11 @@
 				B68825BA2BFFA9AF00C6EC1C /* Destination.swift in Sources */,
 				08A7415E2C01733B0053A41A /* OnboardingItemView.swift in Sources */,
 				B67AB8372BFAE3C7006F010E /* MyTinApp.swift in Sources */,
+				B66D5A622C01B69E00536FEF /* HomePage.swift in Sources */,
 				08A7415C2C0164EB0053A41A /* OnboardingSliderView.swift in Sources */,
 				B68825B82BFFA9A000C6EC1C /* Day.swift in Sources */,
 				08A741562C015E860053A41A /* OnboardingMainView.swift in Sources */,
+				B66D5A6A2C01C79900536FEF /* BottomRoundedCorners.swift in Sources */,
 				B68825B42BFFA98000C6EC1C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
