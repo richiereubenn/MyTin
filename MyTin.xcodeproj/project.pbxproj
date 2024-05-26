@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A9DDFF2C01F04900DE1CF5 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9DDFE2C01F04900DE1CF5 /* ProfileView.swift */; };
 		08A741562C015E860053A41A /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741552C015E860053A41A /* OnboardingMainView.swift */; };
 		08A741582C015FDE0053A41A /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741572C015FDE0053A41A /* OnboardingModel.swift */; };
 		08A7415A2C0160DA0053A41A /* OnboardingMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04A9DDFE2C01F04900DE1CF5 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = SOURCE_ROOT; };
 		08A741552C015E860053A41A /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
 		08A741572C015FDE0053A41A /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainViewModel.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		B66D5A602C01B66800536FEF /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
+				04A9DDFE2C01F04900DE1CF5 /* ProfileView.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				B67AB8392BFAE3C7006F010E /* ContentView.swift in Sources */,
 				B68825BA2BFFA9AF00C6EC1C /* Destination.swift in Sources */,
 				08A7415E2C01733B0053A41A /* OnboardingItemView.swift in Sources */,
+				04A9DDFF2C01F04900DE1CF5 /* ProfileView.swift in Sources */,
 				B67AB8372BFAE3C7006F010E /* MyTinApp.swift in Sources */,
 				B66D5A622C01B69E00536FEF /* HomePage.swift in Sources */,
 				08A7415C2C0164EB0053A41A /* OnboardingSliderView.swift in Sources */,
