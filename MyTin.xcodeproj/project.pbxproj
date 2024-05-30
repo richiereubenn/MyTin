@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045A5ED02C08228C0023BFDB /* FormPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045A5ECF2C08228C0023BFDB /* FormPage.swift */; };
 		08A741562C015E860053A41A /* OnboardingMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741552C015E860053A41A /* OnboardingMainView.swift */; };
 		08A741582C015FDE0053A41A /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741572C015FDE0053A41A /* OnboardingModel.swift */; };
 		08A7415A2C0160DA0053A41A /* OnboardingMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045A5ECF2C08228C0023BFDB /* FormPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPage.swift; sourceTree = "<group>"; };
 		08A741552C015E860053A41A /* OnboardingMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainView.swift; sourceTree = "<group>"; };
 		08A741572C015FDE0053A41A /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
 		08A741592C0160DA0053A41A /* OnboardingMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingMainViewModel.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				B67AB8382BFAE3C7006F010E /* ContentView.swift */,
 				B66D5A612C01B69E00536FEF /* HomePage.swift */,
+				045A5ECF2C08228C0023BFDB /* FormPage.swift */,
 				B66D5A602C01B66800536FEF /* Profiles */,
 				B66D5A5E2C01B60C00536FEF /* Trips */,
 				08A741542C011A420053A41A /* Onboarding */,
@@ -294,6 +297,7 @@
 				B68825B82BFFA9A000C6EC1C /* Day.swift in Sources */,
 				08A741562C015E860053A41A /* OnboardingMainView.swift in Sources */,
 				B66D5A6A2C01C79900536FEF /* BottomRoundedCorners.swift in Sources */,
+				045A5ED02C08228C0023BFDB /* FormPage.swift in Sources */,
 				B68825B42BFFA98000C6EC1C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
